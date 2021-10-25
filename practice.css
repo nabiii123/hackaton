@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+button{
+    height:60px;
+    border:none;
+    width:100%;
+    font-size: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+#non-selected{
+    background-color:white;
+}

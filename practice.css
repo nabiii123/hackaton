@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+#mission{
+    margin:0 auto;
+    font-size:25px;
+}
+
+#non-selected{
+    background-color:white;
+}
+#coffee{
+    background-color:#6E6E6E;
+}
+
 body{
     font-family: 'Nanum Gothic', sans-serif;
 }
@@ -7,12 +19,14 @@ body{
 #grid{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
+    padding:13px;
 }
 button{
+    background-color:white;
     height:60px;
     border:none;
     width:100%;
-    font-size: 30px;
+    font-size: 15px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 #non-selected{

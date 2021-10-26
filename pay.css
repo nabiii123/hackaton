@@ -1,16 +1,8 @@
-html{height:100%;
-    width:100%;
-
-}
-body{height:100%;
-    width:100%;
-
-}
-
 #grid{height:100%;
     width:100%;
+    display:inline-block;
     vertical-align: middle;
-    test-align:center;
+    text-align:center;
 }
 button{
     height:200px;
@@ -19,3 +11,4 @@ button{
 img{
     width:40%
 }
+

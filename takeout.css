@@ -1,0 +1,17 @@
+img{
+    width:40%
+}
+
+#grid {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center; /*inline-block의 장점은 폰트의 성질도 포함되고 있어서 text-align으로 정렬을 쉽게 할수가 있다.*/
+    font-size: 0; /*양 옆쪽, 밑에 4px정도 여백을 없에주는 방법*/
+}
+
+button {
+    height:200px;
+    width:200px;
+    display: inline-block; /*이부분에 성질을 inline-block로 바꿔줘서 가로배치를 해줬다.*/
+    vertical-align: top; /*밑에 4px 여백을 없에는것*/
+}
